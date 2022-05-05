@@ -275,6 +275,20 @@ animation-timing-function: ease;
 
 /*mobile*/
 @media(max-width: 992px){
+
+    .foto{
+        margin-top: 20rem;
+    }
+
+    header h1{
+        margin-left: 1.7rem;
+    }
+
+    header .list-items{
+        margin-left: 2rem;
+    }
+
+
     .flex-container{
         flex-direction: column;
     }
@@ -282,10 +296,18 @@ animation-timing-function: ease;
     .apresentacao{
         flex-direction: column-reverse;
         transform: translateX(0);
+        margin-top: -15rem;
     }
-
+    .apresentacao a{
+        margin-left: 1.7rem;
+    }
     .apresentacao .texto-apresentacao{
         width: 100%;
+    }
+
+    div .texto-apresentacao h1,
+    div .texto-apresentacao p{
+        margin-left: 1.7rem;
     }
 
     #quem-somos{
@@ -297,6 +319,17 @@ animation-timing-function: ease;
         margin: auto;
     }
 
+    #quem-somos h2{
+        margin-left: 1.7rem;
+    }
+
+    #quem-somos p{
+        margin-left: .6rem;
+    }
+
+    .container-externo h2{
+        margin-left: 1.7rem;
+    }
     .list-servicos{
         flex-direction: column;
     }
@@ -322,20 +355,24 @@ animation-timing-function: ease;
         width: 100%;
     }
 
-    .menu,
-    .apresentacao,
-    #quem-somos,
-    #servicos,
-    #planos h2,
-    .footer{
-        margin-left: 20px;
+    #planos .item-planos {
+        margin-bottom: 1.7rem;
     }
 
     #planos h2{
+        margin-left: 1.7rem;
         padding-bottom: 20px;
     }
 
     .item{
         padding-bottom: 70px;
+    }
+
+    .item-planos a{
+        width: 75%;
+    }
+
+    footer p{
+        margin: auto;
     }
 }
