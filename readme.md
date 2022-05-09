@@ -17,10 +17,6 @@ Users should be able to:
 - View the optimal layout for the app depending on their device's screen size 
 - See hover states and animations for all interactive elements on the page
 
-### Screenshot
-
-![Gif com a página inicial](./imagens/gif-inicial.gif)
-
 ### Built with
 
 - Semantic HTML5 markup
