@@ -8,6 +8,7 @@
   - Continued development: I have to continue practice how to use the responsive page, animations on css, flex-box and javascript. 
 - Author: Natali Marinho. 
 - Acknowledgments: css and html.
+- Deploy's link: https://natsmarinho.github.io/flex-turismo/
 
 
 ### The challenge
